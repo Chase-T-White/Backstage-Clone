@@ -1,0 +1,31 @@
+.issue {
+  display: grid;
+  place-content: center;
+  /* position: relative; */
+
+  padding-block: 15em;
+  height: 100vh;
+  scroll-snap-align: start;
+  /* z-index: 5; */
+}
+
+.issue img {
+  max-width: 42rem;
+  justify-self: center;
+}
+
+.issue__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.issue__text > p {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.issue__text > p > a:hover {
+  text-decoration: underline;
+}
